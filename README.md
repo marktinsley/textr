@@ -15,7 +15,7 @@ php artisan key:generate
 
 # Set your twilio env vars in the .env file.
 
-docker-compose up -d
+./vendor/bin/sail up -d
 ```
 
 Register here: http://localhost:8888/register
